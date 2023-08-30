@@ -1,5 +1,5 @@
 # Color-Clicker
-A simple script that left-clicks when a specific color is detected in a designated area on the display. 
+A simple script that outputs a left-click if a specific color is detected in a designated area on the display. 
 
 In order to get the specific "area_coordinates" I used "MPos-v.0.5.0-Portable" on Windows
 
