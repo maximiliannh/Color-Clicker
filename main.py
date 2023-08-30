@@ -3,7 +3,7 @@ import time
 from PIL import ImageGrab
 
 target_color = (0, 0, 0)  # RGB
-area_coordinates = (1880, 1225, 1930, 1240)
+area_coordinates = (x1, y1, x2, y2) #your pixel coordinates here
 
 while True:
     screenshot = ImageGrab.grab(bbox=area_coordinates)
@@ -22,4 +22,4 @@ while True:
     if color_found:
         pyautogui.click()
 
-    time.sleep(0.5)
+    time.sleep(0.5) 
